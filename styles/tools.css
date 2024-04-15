@@ -1,0 +1,67 @@
+.skills {
+  padding: 90px 140px;
+}
+.tools {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+  row-gap: 40px;
+  justify-content: space-around;
+}
+.skills > h1 {
+  margin-bottom: 30px;
+}
+.tool {
+  padding: 40px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc6ff;
+  font-weight: 700;
+  border-radius: 20px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.3);
+  border-top: 5px solid rgba(0, 0, 0, 0.3);
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.tool img {
+  height: 100px;
+  width: 100px;
+}
+.tool:nth-child(2) {
+  transition-delay: 200ms;
+}
+.tool:nth-child(3) {
+  transition-delay: 400ms;
+}
+.tool:nth-child(4) {
+  transition-delay: 600ms;
+}
+.tool:nth-child(5) {
+  transition-delay: 800ms;
+}
+.tool:nth-child(6) {
+  transition-delay: 1000ms;
+}
+.tool:nth-child(7) {
+  transition-delay: 1200ms;
+}
+.tool:nth-child(8) {
+  transition-delay: 1400ms;
+}
+.tool:nth-child(9) {
+  transition-delay: 1600ms;
+}
+.tool:nth-child(10) {
+  transition-delay: 1800ms;
+}
+.tool:nth-child(11) {
+  transition-delay: 2000ms;
+}
+.tool:nth-child(12) {
+  transition-delay: 2200ms;
+}

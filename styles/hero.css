@@ -5,6 +5,9 @@
   grid-template-columns: 450px 1fr;
   align-items: start;
   height: auto;
+  padding-top: 180px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 .hero_info {
   margin-top: 20px;
@@ -40,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   /* margin-left: 100px; */
 }
 .hero .card {
@@ -102,8 +106,8 @@ img {
 .container svg {
   /* position: relative; */
   position: absolute;
-  top: 20%;
-  right: 19%;
+  top: -7%;
+  right: 15%;
 }
 
 .rectangle {
@@ -124,11 +128,18 @@ img {
   border-bottom: 20px solid transparent;
   border-right: 30px solid #84a59d;
 }
+.arrows {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  /* height: 200px; */
+}
 .arrow {
   display: flex;
   position: absolute;
-  top: 75%;
-  left: 56%;
+  bottom: -32%;
+  left: 26%;
 }
 .triangle-2 {
   border-top: 15px solid transparent;
@@ -143,10 +154,6 @@ img {
 .arrow-2 {
   display: flex;
   position: absolute;
-  top: 69%;
-  left: 61%;
-}
-.arrows {
-  display: flex;
-  flex-direction: column;
+  bottom: -15%;
+  left: 38%;
 }

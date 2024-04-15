@@ -10,11 +10,26 @@ body {
   background-color: #fefae0;
   color: #003049;
   padding-bottom: 100px;
+  position: relative;
 }
 a {
   text-decoration: none;
 }
 main {
-  padding-left: 150px;
-  padding-right: 150px;
+}
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  trandform: translateX(-100%);
+  transition: all 1s;
+}
+.visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hidden {
+    transition: none;
+  }
 }
