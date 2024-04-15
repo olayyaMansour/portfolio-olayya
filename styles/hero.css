@@ -1,0 +1,142 @@
+.hero {
+  /* background-color: tomato; */
+  padding: 70px 100px;
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  align-items: start;
+  height: auto;
+}
+.hero_info {
+  margin-top: 60px;
+}
+.hero_name {
+  font-weight: 800;
+  font-size: 3rem;
+}
+.hero_profession {
+  font-weight: 700;
+  font-size: 1.25rem;
+  background: linear-gradient(to top, #003049, #ff6f61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+  /* font-size: 1.25rem; */
+  margin-top: 1rem;
+}
+.hero_search {
+  margin-top: 60px;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  max-width: 95%;
+  padding: 7px 10px 7px 20px;
+  border: 1px solid #003049;
+  border-radius: 20px;
+  color: #003049;
+  background-color: #ffc2d1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 230px;
+  height: 280px;
+  border-radius: 20px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  /* position: relative; */
+  overflow: hidden; /* Added */
+}
+.card-top {
+  padding: 15px 10px 10px 10px;
+
+  background-color: #ffc2d1;
+  border: 1px solid #003049;
+
+  position: absolute;
+  /* box-shadow: 10px -10px 0 #f77f00; */
+  z-index: 1;
+}
+.card-bottom {
+  padding: 10px 10px 10px 10px;
+
+  background-color: #84a59d;
+  border: 1px solid #003049;
+
+  /* box-shadow: 10px -10px 0 #003049; */
+  position: relative;
+  top: 140px;
+  left: 15%;
+  z-index: 2; /* Added */
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  position: relative;
+  z-index: 10; /* Added */
+}
+/* New styles for inner shadow effect */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-color: #003049; /* Inner card color */
+  border-radius: 15px; /* Adjust to match outer card border radius */
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  z-index: 0;
+}
+.card-bottom::before {
+  background-color: #f6bd60;
+  /* background-color: #ac808a; */
+}
+.container svg {
+  /* position: relative; */
+  position: absolute;
+  top: 30%;
+  right: 18%;
+}
+
+.rectangle {
+  width: 120px;
+  height: 30px;
+  background-color: #84a59d;
+  /* border: 1px solid #003049; */
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 30px solid #84a59d;
+}
+.arrow {
+  display: flex;
+  position: absolute;
+  top: 80%;
+  left: 52%;
+}
+.rectangle-2 {
+  width: 80px;
+}
+.arrow-2 {
+  display: flex;
+  position: absolute;
+  top: 72%;
+  left: 55%;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
