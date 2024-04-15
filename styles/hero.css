@@ -1,13 +1,13 @@
 .hero {
   /* background-color: tomato; */
-  padding: 70px 100px;
+  padding: 70px 150px;
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 450px 1fr;
   align-items: start;
   height: auto;
 }
 .hero_info {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .hero_name {
   font-weight: 800;
@@ -40,6 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-left: 100px; */
 }
 .card {
   width: 230px;
@@ -68,8 +69,8 @@
 
   /* box-shadow: 10px -10px 0 #003049; */
   position: relative;
-  top: 140px;
-  left: 15%;
+  top: 90px;
+  left: 25%;
   z-index: 2; /* Added */
 }
 img {
@@ -101,42 +102,51 @@ img {
 .container svg {
   /* position: relative; */
   position: absolute;
-  top: 30%;
-  right: 18%;
+  top: 20%;
+  right: 19%;
 }
 
 .rectangle {
   width: 120px;
-  height: 30px;
+  height: 40px;
   background-color: #84a59d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
   /* border: 1px solid #003049; */
 }
 
 .triangle {
   width: 0;
   height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
   border-right: 30px solid #84a59d;
 }
 .arrow {
   display: flex;
   position: absolute;
-  top: 80%;
-  left: 52%;
+  top: 75%;
+  left: 56%;
+}
+.triangle-2 {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid #ffc2d1;
 }
 .rectangle-2 {
+  height: 30px;
   width: 80px;
+  background-color: #ffc2d1;
 }
 .arrow-2 {
   display: flex;
   position: absolute;
-  top: 72%;
-  left: 55%;
+  top: 69%;
+  left: 61%;
 }
 .arrows {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
