@@ -1,6 +1,6 @@
 .hero {
   /* background-color: tomato; */
-  padding: 70px 150px;
+  padding: 70px 0;
   display: grid;
   grid-template-columns: 450px 1fr;
   align-items: start;
@@ -42,7 +42,7 @@
   align-items: center;
   /* margin-left: 100px; */
 }
-.card {
+.hero .card {
   width: 230px;
   height: 280px;
   border-radius: 20px;

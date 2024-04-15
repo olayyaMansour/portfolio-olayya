@@ -43,7 +43,9 @@ nav {
 }
 .nav_links li.selected {
   border: 1px solid #003049;
-  background-color: #f6bd60;
+  /* background-color: #f6bd60; */
+  background-color: #ffd670;
+
   border-radius: 20px;
 }
 .nav_links a {

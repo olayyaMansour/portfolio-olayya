@@ -9,7 +9,12 @@
 body {
   background-color: #fefae0;
   color: #003049;
+  padding-bottom: 100px;
 }
 a {
   text-decoration: none;
+}
+main {
+  padding-left: 150px;
+  padding-right: 150px;
 }

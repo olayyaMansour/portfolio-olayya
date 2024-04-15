@@ -1,0 +1,72 @@
+.services {
+  margin-top: 70px;
+}
+.services > h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.services > h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-top: -5px;
+}
+.services > p {
+  max-width: 750px;
+}
+.services_cards {
+  margin-top: 50px;
+  display: flex;
+  column-gap: 20px;
+  /* font-size: 16px; */
+  /* background-color: tomato; */
+}
+.card-2 {
+  background-color: #ffc2d1;
+  flex: 1;
+  border-radius: 20px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  padding: 20px;
+  padding-top: 80px;
+  position: relative;
+  /* text-align: center; */
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.card-2 > h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.card-2-icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -7%;
+  left: 36%;
+  /* border: 1px solid #003049; */
+  padding: 15px;
+  border-radius: 100%;
+  background-color: #fefae0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card-blue {
+  background-color: #84a59d;
+}
+.card-purple {
+  background-color: #6d6875;
+  color: #fefae0;
+}
+.card-orange {
+  background-color: #f6bd60;
+}
+.card-2-icon-4 {
+  background-color: #003049;
+  box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+}
