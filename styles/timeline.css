@@ -60,7 +60,7 @@
   z-index: 10;
   width: 25px;
   height: 25px;
-  background-color: #003049;
+  background-color: var(--light-blue-color);
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@
   left: 50%;
   width: 5px;
   height: 100%;
-  background-color: var(--card-yellow-color);
+  background-color: var(--light-blue-color);
   margin-left: -2.5px;
   z-index: -1;
   animation: showLine 4s linear forwards;
@@ -115,22 +115,19 @@
   z-index: 1;
 }
 @media screen and (max-width: 768px) {
-  .timeline::after {
-    left: 31px;
-  }
   .timeline_container {
     width: 100%;
-    /* padding-left: 80px;
-    padding-right: 25px; */
+    padding-left: 20px;
+    /* padding-right: 25px; */
   }
   .timeline::after {
-    left: 0;
+    left: 20px;
   }
   .right-container {
     left: 0;
   }
   .timeline .icon {
-    left: -12px;
+    left: -33px;
   }
   .left-container-arrow,
   .right-container-arrow {

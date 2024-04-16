@@ -13,11 +13,13 @@ h1 {
 }
 .services_cards {
   margin-top: 60px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 20px;
+  row-gap: 40px;
 }
 .service_card {
-  flex: 1;
+  min-height: 300px;
   border-radius: 20px;
   border-top-left-radius: 160px;
   border-top-right-radius: 160px;
@@ -33,6 +35,7 @@ h1 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 25px;
+  margin-left: 20px;
 }
 .service_card_icon {
   position: absolute;
@@ -70,4 +73,15 @@ h1 {
 }
 .service_card:nth-child(4) {
   transition-delay: 600ms;
+}
+@media (max-width: 730px) {
+  h1 {
+    font-size: 32px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 18px;
+  }
 }

@@ -8,7 +8,11 @@ navLinks.forEach((link) => {
 });
 
 // add services cards animation on hover
-VanillaTilt.init(document.querySelectorAll(".card-2"), {
+VanillaTilt.init(document.querySelector(".arrow"), {
+  max: 25,
+  speed: 400,
+});
+VanillaTilt.init(document.querySelectorAll(".service_card"), {
   max: 25,
   speed: 400,
 });
@@ -46,4 +50,14 @@ form.addEventListener("submit", async (e) => {
       tooltip.classList.remove("show-tooltip");
     }, 2000);
   }
+});
+
+// ham menu
+const hamMenu = document.querySelector(".ham-menu");
+
+const offScreenMenu = document.querySelector(".off-screen-menu");
+
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
 });

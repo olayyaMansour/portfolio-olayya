@@ -60,3 +60,30 @@ ul {
     transition: none;
   }
 }
+@media (max-width: 1100px) {
+  .hero,
+  .services,
+  .timeline,
+  .skills,
+  .work {
+    padding: 0 70px 70px 70px;
+  }
+}
+@media (max-width: 950px) {
+  .hero,
+  .services,
+  .timeline,
+  .skills,
+  .work {
+    padding: 0 40px 70px 40px;
+  }
+}
+@media (max-width: 410px) {
+  .hero,
+  .services,
+  .timeline,
+  .skills,
+  .work {
+    padding: 0 20px 70px 20px;
+  }
+}
