@@ -1,13 +1,9 @@
 .hero {
-  /* background-color: tomato; */
-  padding: 70px 0;
+  padding-top: 180px;
   display: grid;
   grid-template-columns: 450px 1fr;
   align-items: start;
   height: auto;
-  padding-top: 180px;
-  padding-left: 140px;
-  padding-right: 140px;
 }
 .hero_info {
   margin-top: 20px;
@@ -19,12 +15,15 @@
 .hero_profession {
   font-weight: 700;
   font-size: 1.25rem;
-  background: linear-gradient(to top, #003049, #ff6f61);
+  background: linear-gradient(
+    to top,
+    var(--text-color),
+    var(--gradient-purple-color)
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .hero p {
-  /* font-size: 1.25rem; */
   margin-top: 1rem;
 }
 .hero_search {
@@ -34,126 +33,110 @@
   align-items: center;
   max-width: 95%;
   padding: 7px 10px 7px 20px;
-  border: 1px solid #003049;
+  border: 1px solid var(--text-color);
   border-radius: 20px;
-  color: #003049;
-  background-color: #ffc2d1;
+  color: var(--text-color);
+  background-color: var(--light-pink-color);
 }
-.container {
+
+.hero_profile {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* margin-left: 100px; */
 }
-.hero .card {
+.hero .profile_card {
   width: 230px;
   height: 280px;
   border-radius: 20px;
   border-top-left-radius: 160px;
   border-top-right-radius: 160px;
-  /* position: relative; */
-  overflow: hidden; /* Added */
 }
-.card-top {
-  padding: 15px 10px 10px 10px;
-
-  background-color: #ffc2d1;
-  border: 1px solid #003049;
-
+.profile_card-top {
+  padding: 20px 10px 10px 10px;
+  background-color: var(--lighter-pink-color);
+  border: 1px solid var(--text-color);
   position: absolute;
-  /* box-shadow: 10px -10px 0 #f77f00; */
   z-index: 1;
 }
-.card-bottom {
-  padding: 10px 10px 10px 10px;
-
-  background-color: #84a59d;
-  border: 1px solid #003049;
-
-  /* box-shadow: 10px -10px 0 #003049; */
+.profile_card-bottom {
+  padding: 0 10px 10px 10px;
+  background-color: var(--light-blue-color);
+  border: 1px solid var(--text-color);
   position: relative;
   top: 90px;
   left: 25%;
-  z-index: 2; /* Added */
+  z-index: 2;
 }
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 20px;
   position: relative;
-  z-index: 10; /* Added */
+  z-index: 3;
 }
-/* New styles for inner shadow effect */
-.card::before {
+/* styles for inner shadow effect */
+.profile_card::before {
   content: "";
   position: absolute;
   top: 10px;
   left: 10px;
   right: 10px;
   bottom: 10px;
-  background-color: #003049; /* Inner card color */
-  border-radius: 15px; /* Adjust to match outer card border radius */
+  background-color: var(--text-color); /* Inner profile_card color */
+  border-radius: 20px; /* To match outer profile_card border radius */
   border-top-left-radius: 160px;
   border-top-right-radius: 160px;
   z-index: 0;
 }
-.card-bottom::before {
-  background-color: #f6bd60;
-  /* background-color: #ac808a; */
+.profile_card-bottom::before {
+  background-color: var(--card-yellow-color);
 }
-.container svg {
-  /* position: relative; */
+
+.hero_profile .star {
   position: absolute;
   top: -7%;
   right: 15%;
 }
 
-.rectangle {
-  width: 120px;
-  height: 40px;
-  background-color: #84a59d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 500;
-  /* border: 1px solid #003049; */
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-right: 30px solid #84a59d;
-}
-.arrows {
-  /* position: relative; */
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  /* height: 200px; */
-}
-.arrow {
+.hero_arrow-2 {
   display: flex;
   position: absolute;
   bottom: -32%;
   left: 26%;
 }
-.triangle-2 {
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-right: 20px solid #ffc2d1;
-}
-.rectangle-2 {
-  height: 30px;
-  width: 80px;
-  background-color: #ffc2d1;
-}
-.arrow-2 {
+.hero_arrow {
   display: flex;
   position: absolute;
   bottom: -15%;
   left: 38%;
+}
+.rectangle-2 {
+  width: 120px;
+  height: 40px;
+  background-color: var(--light-blue-color);
+  font-weight: 500;
+}
+.triangle-2 {
+  /* width: 0;
+  height: 0; */
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 30px solid var(--light-blue-color);
+}
+.triangle {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid var(--lighter-pink-color);
+}
+.rectangle {
+  height: 30px;
+  width: 80px;
+  background-color: var(--lighter-pink-color);
+}
+.rectangle,
+.rectangle-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

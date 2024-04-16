@@ -10,6 +10,12 @@
   --bg-color: #f2e9e4;
   --text-color: #003049;
   --header-color: #b5838d;
+  --light-pink-color: #ffc2d1;
+  --gradient-purple-color: #ff6f61;
+  --lighter-pink-color: #ffc2d1;
+  --orange-color: #f77f00;
+  --light-blue-color: #84a59d;
+  --card-yellow-color: #f6bd60;
 }
 
 body {
@@ -23,6 +29,9 @@ a {
 }
 ul {
   list-style: none;
+}
+section {
+  padding: 0 140px 70px 140px;
 }
 .hidden {
   opacity: 0;
