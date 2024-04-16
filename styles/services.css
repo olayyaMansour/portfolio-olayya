@@ -85,3 +85,19 @@ h1 {
     font-size: 18px;
   }
 }
+@media (max-width: 870px) {
+  .services_cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .service_card {
+    min-height: 250px;
+  }
+}
+@media (max-width: 540px) {
+  .services_cards {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+  .service_card {
+    min-height: 200px;
+  }
+}

@@ -75,15 +75,14 @@ ul {
   .timeline,
   .skills,
   .work {
-    padding: 0 40px 70px 40px;
+    padding: 0 40px 50px 40px;
   }
 }
 @media (max-width: 410px) {
   .hero,
   .services,
-  .timeline,
   .skills,
   .work {
-    padding: 0 20px 70px 20px;
+    padding: 0 20px 20px 20px;
   }
 }

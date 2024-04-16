@@ -59,7 +59,18 @@
   font-size: 18px;
   font-weight: 700;
 }
-
+.description h4 .live {
+  margin-left: 10px;
+  background-color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: var(--bg-color);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
 .work input {
   display: none;
 }
@@ -84,4 +95,27 @@
 }
 .work_card[for="c4"] {
   background-image: url("../assets/projects/portfolio.png");
+}
+@media (max-width: 1240px) {
+  .description p {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .description h4 {
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 500;
+    min-width: 0px;
+  }
+}
+@media (max-width: 650px) {
+  .description h4 .title {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .work_card > .row > .work_card_icon {
+    display: none;
+  }
 }
