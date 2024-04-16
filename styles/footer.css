@@ -175,8 +175,12 @@ footer {
   }
   .contact_form button,
   .tooltip {
-    background-color: #219ebc;
+    background-color: var(--lighter-pink-color);
     color: var(--text-color);
+  }
+  .tooltip {
+    background-color: #219ebc;
+    color: var(--bg-color);
   }
   .tooltip {
     left: 50%;
