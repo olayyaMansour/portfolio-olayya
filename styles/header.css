@@ -2,8 +2,9 @@ header {
   display: flex;
   align-items: center;
   /* background-color: #ff9900; */
-  background-color: #e6e5df;
-  height: 80px;
+  /* background-color: #c9ada7; */
+  background-color: #b5838d;
+  height: 65px;
   padding: 0 100px;
   position: fixed;
   width: 100%;
@@ -42,12 +43,14 @@ nav {
 }
 .nav_links li {
   list-style: none;
-  padding: 5px 15px;
+  padding: 2px 14px;
 }
 .nav_links li.selected {
   border: 1px solid #003049;
   /* background-color: #f6bd60; */
-  background-color: #ffd670;
+  /* background-color: #ffd670; */
+  background-color: #f2e9e4;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   border-radius: 20px;
 }

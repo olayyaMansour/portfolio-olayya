@@ -11,21 +11,25 @@
 .skills > h1 {
   margin-bottom: 30px;
 }
+h1 > span {
+  color: #e27396;
+}
 .tool {
-  padding: 40px 20px 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  background-color: #ffc6ff;
+  /* background-color: #ffc6ff; */
+  background-color: #fefae0;
   font-weight: 700;
   border-radius: 20px;
-  border-top-left-radius: 160px;
-  border-top-right-radius: 160px;
-  box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.3);
-  border-top: 5px solid rgba(0, 0, 0, 0.3);
-  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  /* border-top-left-radius: 160px;
+  border-top-right-radius: 160px; */
+  box-shadow: 7px 7px 10px #84a59d;
+  border-top: 2px solid #e27396;
+  border-left: 2px solid #e27396;
   cursor: pointer;
 }
 .tool img {
