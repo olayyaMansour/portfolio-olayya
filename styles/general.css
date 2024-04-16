@@ -44,6 +44,9 @@ ul {
   padding: 0 140px 70px 140px;
   margin-bottom: 60px;
 }
+a:active {
+  opacity: 0.5;
+}
 .hidden {
   opacity: 0;
   filter: blur(5px);

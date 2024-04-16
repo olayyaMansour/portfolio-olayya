@@ -60,7 +60,7 @@
   z-index: 10;
   width: 25px;
   height: 25px;
-  background-color: var(--light-blue-color);
+  background-color: var(--card-yellow-color);
   border-radius: 100%;
   display: flex;
   align-items: center;

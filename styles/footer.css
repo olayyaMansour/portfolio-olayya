@@ -41,6 +41,12 @@ footer {
 .sm-icons a {
   color: var(--text-color);
 }
+.sm-icons a:hover {
+  color: var(--light-blue-color);
+}
+.sm-icons a:active {
+  opacity: 0.5;
+}
 .contact_form {
   padding: 20px 0;
   display: flex;
@@ -85,6 +91,12 @@ footer {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
+}
+.contact_form button:hover {
+  background-color: var(--dark-pink-color);
+}
+.contact_form button:active {
+  opacity: 0.5;
 }
 .tooltip {
   display: flex;

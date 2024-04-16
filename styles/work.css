@@ -22,6 +22,7 @@
 .work_card > .row {
   display: flex;
   flex-wrap: nowrap;
+  padding: 10px 0;
 }
 .work_card > .row > .work_card_icon {
   background: var(--text-color);
@@ -32,13 +33,21 @@
   justify-content: center;
   align-items: center;
   margin: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+.work_card > .row > .work_card_icon:hover {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+}
+.work_card > .row > .work_card_icon:active,
+.description h4 .live:active {
+  opacity: 0.5;
 }
 .work_card > .row > .description {
   display: flex;
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   width: 560px;
   opacity: 0;
   transform: translateY(30px);
@@ -70,6 +79,10 @@
   align-items: center;
   justify-content: center;
   width: 100px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+.description h4 .live:hover {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 .work input {
   display: none;

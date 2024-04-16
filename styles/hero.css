@@ -37,6 +37,10 @@
   border-radius: 20px;
   color: var(--text-color);
   background-color: var(--light-pink-color);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
+}
+.hero_search:hover {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
 }
 
 .hero_profile {
@@ -54,7 +58,7 @@
 }
 .profile_card-top {
   padding: 20px 10px 10px 10px;
-  background-color: var(--lighter-pink-color);
+  background-color: var(--text-color);
   border: 1px solid var(--text-color);
   position: relative;
   z-index: 1;
@@ -84,7 +88,7 @@ img {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  background-color: var(--text-color); /* Inner profile_card color */
+  background-color: var(--lighter-pink-color); /* Inner profile_card color */
   border-radius: 20px; /* To match outer profile_card border radius */
   border-top-left-radius: 160px;
   border-top-right-radius: 160px;
@@ -121,8 +125,6 @@ img {
   background-color: var(--light-blue-color);
 }
 .triangle-2 {
-  /* width: 0;
-  height: 0; */
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
   border-right: 30px solid var(--light-blue-color);
