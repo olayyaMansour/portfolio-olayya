@@ -175,7 +175,7 @@ footer {
   }
   .contact_form button,
   .tooltip {
-    background-color: var(--lighter-pink-color);
+    background-color: #219ebc;
     color: var(--text-color);
   }
   .tooltip {

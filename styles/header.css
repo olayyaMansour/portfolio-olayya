@@ -89,7 +89,7 @@ nav {
 .ham-menu span {
   height: 5px;
   width: 100%;
-  background-color: var(--text-color);
+  background-color: var(--bg-color);
   border-radius: 25px;
   position: absolute;
   left: 80%;
