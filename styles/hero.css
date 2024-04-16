@@ -123,6 +123,7 @@ img {
   width: 120px;
   height: 40px;
   background-color: var(--light-blue-color);
+  font-weight: 600;
 }
 .triangle-2 {
   border-top: 20px solid transparent;
@@ -132,19 +133,19 @@ img {
 .triangle {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 20px solid var(--lighter-pink-color);
+  border-right: 20px solid var(--text-color);
 }
 .rectangle {
   height: 30px;
   width: 80px;
-  background-color: var(--lighter-pink-color);
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 .rectangle,
 .rectangle-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
 }
 @media (max-width: 1275px) {
   .hero_profile .star {

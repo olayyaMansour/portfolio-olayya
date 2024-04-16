@@ -42,7 +42,7 @@ footer {
   color: var(--text-color);
 }
 .sm-icons a:hover {
-  color: var(--light-blue-color);
+  color: #219ebc;
 }
 .sm-icons a:active {
   opacity: 0.5;
