@@ -51,9 +51,8 @@ h1 {
 .card-blue {
   background-color: var(--light-blue-color);
 }
-.card-purple {
-  background-color: var(--purple-color);
-  color: var(--beige-color);
+.card-pink {
+  background-color: var(--lighter-pink-color);
 }
 .card-yellow {
   background-color: var(--card-yellow-color);

@@ -20,7 +20,10 @@
   --beige-color: #fefae0;
   --dark-pink-color: #e27396;
 }
-
+body,
+html {
+  height: 100%;
+}
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -33,7 +36,11 @@ a {
 ul {
   list-style: none;
 }
-section {
+.hero,
+.services,
+.timeline,
+.skills,
+.work {
   padding: 0 140px 70px 140px;
   margin-bottom: 60px;
 }

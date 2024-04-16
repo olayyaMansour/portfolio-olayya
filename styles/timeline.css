@@ -55,7 +55,7 @@
 }
 .timeline .icon {
   position: absolute;
-  right: -10px;
+  right: -12px;
   top: 32px;
   z-index: 10;
   width: 25px;
@@ -68,7 +68,7 @@
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .right-container .icon {
-  left: -14px;
+  left: -12px;
 }
 .timeline::after {
   content: "";
@@ -77,7 +77,7 @@
   left: 50%;
   width: 5px;
   height: 100%;
-  background-color: #fefae0;
+  background-color: var(--card-yellow-color);
   margin-left: -2.5px;
   z-index: -1;
   animation: showLine 4s linear forwards;
