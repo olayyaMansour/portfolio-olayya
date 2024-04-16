@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 180px;
+  padding-top: 160px;
   display: grid;
   grid-template-columns: 450px 1fr;
   align-items: start;

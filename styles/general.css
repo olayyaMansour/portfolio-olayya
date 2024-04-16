@@ -16,6 +16,8 @@
   --orange-color: #f77f00;
   --light-blue-color: #84a59d;
   --card-yellow-color: #f6bd60;
+  --purple-color: #6d6875;
+  --beige-color: #fefae0;
 }
 
 body {
@@ -32,6 +34,7 @@ ul {
 }
 section {
   padding: 0 140px 70px 140px;
+  margin-bottom: 60px;
 }
 .hidden {
   opacity: 0;
