@@ -82,6 +82,6 @@
 .work_card[for="c3"] {
   background-image: url("../assets/projects/adhan.png");
 }
-/* .work_card[for="c4"] {
-  background-image: url("./img4.jpeg");
-} */
+.work_card[for="c4"] {
+  background-image: url("../assets/projects/portfolio.png");
+}
