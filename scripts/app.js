@@ -29,3 +29,21 @@ const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((element) => {
   observer.observe(element);
 });
+
+// tooltip for sent message notification
+const form = document.querySelector("form");
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const response = await fetch(form.action, {
+    method: form.method,
+    body: formData,
+  });
+  if (response.ok) {
+    form.reset();
+    tooltip.classList.add("show-tooltip");
+    setTimeout(() => {
+      tooltip.classList.remove("show-tooltip");
+    }, 2000);
+  }
+});
