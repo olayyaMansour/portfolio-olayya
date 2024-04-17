@@ -45,7 +45,7 @@ h1 {
   left: 36%;
   padding: 15px;
   border-radius: 100%;
-  background-color: var(--beige-color);
+  background-color: var(--bg-color);
   display: flex;
   align-items: center;
   justify-content: center;

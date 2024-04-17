@@ -19,7 +19,7 @@ h1 > span {
   gap: 7px;
   align-items: center;
   justify-content: center;
-  background-color: var(--beige-color);
+  background-color: var(--bg-color);
   font-weight: 700;
   border-radius: 20px;
   box-shadow: 7px 7px 10px #84a59d;
