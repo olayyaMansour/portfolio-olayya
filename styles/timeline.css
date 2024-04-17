@@ -132,7 +132,7 @@
   }
   .left-container-arrow,
   .right-container-arrow {
-    border-right: 20px solid #003049;
+    border-right: 20px solid var(--bg-color);
     border-left: 0;
     left: -20px;
   }

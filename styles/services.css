@@ -101,3 +101,9 @@ h1 {
     min-height: 200px;
   }
 }
+@media (max-width: 420px) {
+  .service_card_icon {
+    left: 40%;
+    top: -10%;
+  }
+}
