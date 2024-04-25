@@ -123,6 +123,7 @@
   .timeline_container {
     width: 100%;
     padding-left: 20px;
+    border: none;
   }
   .timeline::after {
     left: 20px;

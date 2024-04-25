@@ -111,6 +111,7 @@ img {
   bottom: -32%;
   left: 27%;
   transform: translateY(50%);
+  cursor: hand;
 }
 .hero_arrow {
   display: flex;
@@ -146,6 +147,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 1830px) {
+  .hero_arrows {
+    display: none;
+  }
 }
 @media (max-width: 1275px) {
   .hero_profile .star {

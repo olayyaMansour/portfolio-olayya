@@ -1,4 +1,4 @@
-// change navigation link styles on selection
+// change header navigation link styles on selection
 const navLinks = document.querySelectorAll(".nav_links li");
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
@@ -7,7 +7,7 @@ navLinks.forEach((link) => {
   });
 });
 
-// add services cards animation on hover
+// add services-cards/tools/and connect-arrow animation on hover
 VanillaTilt.init(document.querySelector(".arrow"), {
   max: 25,
   speed: 400,
