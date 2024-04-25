@@ -23,8 +23,8 @@ h1 > span {
   font-weight: 700;
   border-radius: 20px;
   box-shadow: 7px 7px 10px #84a59d;
-  border-top: 2px solid var(--dark-pink-color);
-  border-left: 2px solid var(--dark-pink-color);
+  border-top: 2px solid var(--text-color);
+  border-left: 2px solid var(--text-color);
   cursor: pointer;
 }
 .tool img {

@@ -32,6 +32,7 @@ nav {
 }
 .nav_links li {
   padding: 2px 14px;
+  border-radius: 15px;
 }
 .nav_links a {
   color: var(--beige-color);
@@ -42,11 +43,7 @@ nav {
   opacity: 0.5;
 }
 .nav_links li.selected {
-  box-shadow: 1px 1px 12px var(--dark-pink-color);
-  border-radius: 15px;
-}
-.nav_links li.selected:hover {
-  box-shadow: 2px 2px 20px var(--dark-pink-color);
+  box-shadow: 2px 2px 12px var(--dark-pink-color);
 }
 .mobile_links {
   display: none;
