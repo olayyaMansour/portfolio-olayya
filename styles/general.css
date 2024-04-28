@@ -36,6 +36,9 @@ a {
 ul {
   list-style: none;
 }
+::selection {
+  background-color: var(--light-pink-color);
+}
 .hero,
 .services,
 .timeline,

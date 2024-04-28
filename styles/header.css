@@ -3,7 +3,7 @@ header {
   align-items: center;
   background-color: var(--text-color);
   color: var(--bg-color);
-  height: 65px;
+  height: 70px;
   padding: 0 100px;
   position: fixed;
   width: 100%;
@@ -31,11 +31,11 @@ nav {
   column-gap: 50px;
 }
 .nav_links li {
-  padding: 2px 14px;
-  border-radius: 15px;
+  padding: 3px 15px;
+  border-radius: 20px;
 }
 .nav_links a {
-  color: var(--beige-color);
+  color: var(--bg-color);
   font-weight: 500;
   font-size: 18px;
 }
@@ -43,7 +43,8 @@ nav {
   opacity: 0.5;
 }
 .nav_links li.selected {
-  box-shadow: 2px 2px 12px var(--dark-pink-color);
+  /* box-shadow: 1px 1px 5px var(--dark-pink-color); */
+  border: 2px solid var(--light-pink-color);
 }
 .mobile_links {
   display: none;
