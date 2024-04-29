@@ -23,8 +23,9 @@
   display: flex;
   flex-wrap: nowrap;
   padding: 10px 0;
+  margin-left: 20px;
 }
-.work_card > .row > .work_card_icon {
+/* .work_card > .row > .work_card_icon {
   background: var(--text-color);
   color: var(--bg-color);
   border-radius: 50%;
@@ -34,7 +35,7 @@
   align-items: center;
   margin: 15px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
-}
+} */
 .work_card > .row > .work_card_icon:hover {
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
 }
