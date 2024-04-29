@@ -80,9 +80,9 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 4px;
+  width: 3px;
   height: 100%;
-  background-color: var(--light-blue-color);
+  background-color: var(--text-color);
   margin-left: -2.5px;
   z-index: -1;
   animation: showLine 4s linear forwards;
